@@ -1,0 +1,50 @@
+a {
+    text-decoration: none;
+
+  }
+
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: "Brush Script MT" ;
+    color:darkgoldenrod; /*(Dark)Goldenrod is nice */
+    margin-left: 30%;
+    
+}
+
+div {
+    font-size: 24px;
+}
+
+.top {
+    font-size: 72px;
+    color: goldenrod;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+p1 {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding-left: 50px;
+    height: 300px;
+    max-width: 30%;
+    font-family: serif;
+  }
+
+
+
+
